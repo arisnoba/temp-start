@@ -20,7 +20,9 @@ yarn-error.log*
 
 # OS & IDE (운영체제 및 에디터 설정)
 .DS_Store
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 .idea/
 
 # TypeScript & ESLint (빌드 정보 및 캐시)
